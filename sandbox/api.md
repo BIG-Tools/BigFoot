@@ -200,26 +200,26 @@ Config model contains different kind of static parameters.
 
 
 #Summary 
-[GET] /config/
-[GET] /pipelines?limit=10
-[POST] /pipelines/upload/
-[GET] /pipelines/{id}
-[POST] /pipelines/{id}
-[DELETE] /pipelines/{id}
+* [GET] /config/
+* [GET] /pipelines?limit=10
+* [POST] /pipelines/upload/
+* [GET] /pipelines/{id}
+* [POST] /pipelines/{id}
+* [DELETE] /pipelines/{id}
 
-[GET] /analysis?limit=10
-[GET] /analysis/{id}
-[POST] /analysis
-[DELETE] /analysis/{id}
-[GET] /analysis/{id}/status
-[GET] /analysis/{id}/files 
+* [GET] /analysis?limit=10
+* [GET] /analysis/{id}
+* [POST] /analysis
+* [DELETE] /analysis/{id}
+* [GET] /analysis/{id}/status
+* [GET] /analysis/{id}/files 
 
-[GET] /users?limit=10
-[GET] /users/{id}
-[POST] /users/
-[DELETE] /users/
-[PUT] /users/{id}
-[GET] /users/{id}/analysis
+* [GET] /users?limit=10
+* [GET] /users/{id}
+* [POST] /users/
+* [DELETE] /users/
+* [PUT] /users/{id}
+* [GET] /users/{id}/analysis
 
 
 
