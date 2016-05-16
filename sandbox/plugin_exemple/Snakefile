@@ -1,0 +1,7 @@
+rule alignement :
+	input : 
+		config["file1"]
+	output:
+		"output.bam"
+	shell:
+		"bwa align {input} > {output}"
